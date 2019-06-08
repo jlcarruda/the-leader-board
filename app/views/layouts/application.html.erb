@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <%= render "layouts/header" %>
+  <body>
+  	<%= render "layouts/shared/navbar", style: yield(:navbar_style) %>
+    <%= yield %>
+  </body>
+</html>
